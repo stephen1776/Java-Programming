@@ -9,4 +9,4 @@
 - To create, compile, and run Java programs.
 - To use sound Java programming style and document programs properly.
 - To explain the differences between syntax errors, runtime errors, and logic errors.
-- To develop Java programs using JetBrains IntelliJ IDEA.
+
