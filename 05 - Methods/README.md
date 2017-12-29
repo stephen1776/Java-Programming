@@ -93,27 +93,36 @@ whose reversal is also a prime. For example, both 17 and 71 are prime numbers, s
 #### 0528 (Mersenne prime) 
 A prime number is called a Mersenne prime if it can be written
 in the form for some positive integer p. Write a program that finds all
-Mersenne primes with p <= 19 and displays the output as follows:
-p 2^p - 1
-2 3
-3 7
-5 31
+Mersenne primes with p <= 19 and displays the output as follows:  
+p 2<sup>p - 1</sup>  
+2 3  
+3 7  
+5 31  
 ...
 
 #### 0529 (Twin primes) 
 Twin primes are a pair of prime numbers that differ by 2. For example,
 3 and 5, 5 and 7, and 11 and 13 are twin primes. Write a program to find all
-twin primes less than 1,000. Display the output as follows:
+twin primes less than 1,000. Display the output as follows:  
 (3, 5)  
 (5, 7)  
 ...
 
-#### 0535 (Compute the probability)
-Generate 10,000 uppercase letters and count the occurrence of A.
+#### 0535 (Geometry: area of a pentagon) 
+The area of a pentagon can be computed using the following formula:  
+Area = (5 * s^2) / (4 * tan(pi / 5) )  
+Write a program that prompts the user to enter the side of a pentagon and displays the area. 
 
-#### 0536 (Generate random characters) 
-Print 100 uppercase letters and then 100 single digits, printing ten
-per line.
+#### 0536 (Geometry: area of a regular polygon) 
+A regular polygon is an n-sided polygon in which all sides are of the same length and all angles have the same degree (i.e., the polygon is both equilateral and equiangular). The formula for computing the area of a regular polygon is:  
+Area = (n * s^2) / (4 * tan(pi / n) )  
+Write a method that returns the area of a regular polygon using the following header:
+public static double area(int n, double side)  
+Write a main method that prompts the user to enter the number of sides and the side of a regular polygon and displays its area.  
+Here is a sample run:  
+Enter the number of sides: 5  
+Enter the side: 6.5  
+The area of the polygon is 72.69017017488385
 
 
 
